@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule logo.png pixel.php [L]
+RewriteRule ^(.*)logo(.*).png pixel.php [L]
